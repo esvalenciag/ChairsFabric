@@ -48,7 +48,7 @@ public class CatalogoSillas {
                     case "secretarial":
                         sillas.add(new Secretarial(referencia, precio, calificacion));
                         break;
-                    case "tándem":
+                    case "tandem":
 
                         int puestos = Integer.parseInt(datos[4]);
                         sillas.add(new Tandem(referencia, precio, calificacion, puestos));
