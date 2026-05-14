@@ -1,4 +1,10 @@
 package modelo;
 
-public class Removible {
+public interface Removible{
+
+    String removerDelCatalogo();
+
+
+
+
 }
