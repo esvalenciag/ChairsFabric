@@ -1,0 +1,7 @@
+Monk, Gerencial, 310000, 4.8
+Osaka, Gerencial, 300000, 4.4
+Zart, Presidencial, 400000, 3.5, si
+Delphi, Secretarial, 185000, 2.8
+Lion, Presidencial, 560000, 4.3, no
+Slim, Secretarial, 195000, 4.6
+Tokio, Presidencial, 555000, 3.2, si

@@ -1,9 +1,9 @@
 package modelo;
 
 public abstract class Silla {
-    private String referencia;
-    private float precio;
-    private float calificacion;
+    protected String referencia;
+    protected float precio;
+    protected float calificacion;
 
 
     public Silla(String referencia, float precio, float calificacion) {

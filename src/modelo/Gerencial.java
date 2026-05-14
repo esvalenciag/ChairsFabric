@@ -6,4 +6,12 @@ public class Gerencial extends Silla implements Removible{
         super(referencia, precio, calificacion);
     }
 
+    @Override
+    public String removerDelCatalogo(){
+        if (this.calificacion < 4 || this.precio > 300000){
+            return "Remover";
+        }
+        return "Mantener";
+    }
+
 }
