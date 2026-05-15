@@ -78,13 +78,19 @@ public class Runner {
                 }
 
                 if (pertenece) {
-                    System.out.println("Ref: " + s.getReferencia() + " | Precio: " + s.getPrecio());
+                    // DESPUÉS
+                    System.out.println("Ref: " + s.getReferencia() + " | Precio: " + s.getPrecio() + " | Calificacion: " + s.getCalificacion() + " | " + s);
                     haySillas = true;
                 }
             }
 
-            if (!haySillas && !"pgstrm".contains(opCat)) {
-                System.out.println("Opción no válida.");
+            // DESPUÉS
+            if (!haySillas) {
+                if ("pgstrm".contains(opCat)) {
+                    System.out.println("No hay sillas de esta categoría en el catálogo.");
+                } else {
+                    System.out.println("Opción no válida.");
+                }
             }
 
         } while (!opCat.equals("x"));
