@@ -18,6 +18,13 @@ public class Presidencial extends Silla implements Removible{
     }
 
     @Override
+    public String toString() {
+        return "Presidencial{" +
+                "esImportada='" + esImportada + '\'' +
+                '}';
+    }
+
+    @Override
     public String removerDelCatalogo(){
         if (this.esImportada.equalsIgnoreCase("si") && (this.calificacion < 3.5f || this.precio > 400000)){
             return "Remover";

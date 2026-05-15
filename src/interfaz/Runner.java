@@ -17,9 +17,9 @@ public class Runner {
         // Memu Principal
         do {
             System.out.println("\n------- FABRICA DE SILLAS -------");
-            System.out.println("Para ver sillas por categoria, digite c");
-            System.out.println("Para ver qué sillas salen del catálogo, digite s");
-            System.out.println("Para terminar, digite t");
+            System.out.println("Para ver sillas por categoria, digite [c]");
+            System.out.println("Para ver qué sillas salen del catálogo, digite [s]");
+            System.out.println("Para terminar, digite [t]");
             System.out.print("¿Qué opción desea? ");
             opPrincipal = sc.nextLine().toLowerCase();
 

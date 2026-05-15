@@ -10,6 +10,13 @@ public class Tandem extends Silla{
         this.puestos = puestos;
     }
 
+    @Override
+    public String toString() {
+        return "Tandem{" +
+                "puestos=" + puestos +
+                '}';
+    }
+
     public int getPuestos() {
         return puestos;
     }

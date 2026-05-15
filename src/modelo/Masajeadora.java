@@ -10,6 +10,14 @@ public class Masajeadora extends  Silla{
         this.calefaccion = calefaccion;
     }
 
+    @Override
+    public String toString() {
+        return "Masajeadora{" +
+                "modosDeUso=" + modosDeUso +
+                ", calefaccion='" + calefaccion + '\'' +
+                '}';
+    }
+
     public int getModosDeUso() {
         return modosDeUso;
     }

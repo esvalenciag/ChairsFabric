@@ -16,7 +16,7 @@ public class CatalogoSillas {
         this.archivo = archivo;
         this.sillas = new ArrayList<>();
     }
-
+    // Con este metodo leemos la informacion del archivo de acuerdo con el archivo.txt
     public void readingData() {
         File file = new File(this.archivo);
 

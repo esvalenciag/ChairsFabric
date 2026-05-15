@@ -36,4 +36,12 @@ public abstract class Silla {
         this.calificacion = calificacion;
     }
 
+    @Override
+    public String toString() {
+        return "Silla{" +
+                "referencia='" + referencia + '\'' +
+                ", precio=" + precio +
+                ", calificacion=" + calificacion +
+                '}';
+    }
 }

@@ -119,7 +119,7 @@ Cada silla tradicional pasa por un filtro de calidad y costo. Si no cumple el es
 | Categoría | Condición para ser **Removida**                                      |
 |-----------|----------------------------------------------------------------------|
 | **Gerencial** | Calificacion < 4.0 **Y** Precio > $300,000                           |
-| **Secretarial** | Calificación <3.0 **Y** Precio > $200.000                            |
+| **Secretarial** | Calificación < 3.0 **Y** Precio > $200.000                           |
 | **Presidencial** | Es importada ("si") **Y** Calificacion < 3.5 **O** Precio > $400.000 |
 
 ### Sillas de Expansión (Tandem, De Ruedas, Masajeadora)

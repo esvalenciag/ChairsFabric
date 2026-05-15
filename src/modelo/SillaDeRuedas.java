@@ -10,6 +10,11 @@ public class SillaDeRuedas extends Silla{
 
     }
 
+    @Override
+    public String toString() {
+        return "SillaDeRuedas{}";
+    }
+
     public String getTraccion() {
         return traccion;
     }
